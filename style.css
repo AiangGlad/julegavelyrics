@@ -201,6 +201,12 @@ main > .lyricbox3 > .lyric3 > img{
 }
 
 @media(min-width:374px){
+
+    
+h2{
+    font-size:30px;
+}
+
 #slutt{
     width:340px;
 }
@@ -277,3 +283,4 @@ h1{
         width:370px;
     }
 }
+
