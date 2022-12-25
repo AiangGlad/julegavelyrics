@@ -27,7 +27,7 @@ body{
 }
 
 .intro{
-    margin:70px auto;
+    margin:40px auto;
     text-align: center;
     width:80%;
 }
@@ -35,7 +35,7 @@ body{
 .intro > p{
     font-family: 'Catamaran', sans-serif;
     color:white;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 #liten{
@@ -60,12 +60,12 @@ h2{
 }
 
 main{
-    margin-top:40px;
+    margin-top:10px;
 }
 
 main > .lyricbox1{
     margin:20px auto;
-    width:370px;
+    width:270px;
     background-color: rgb(188, 183, 183);
     padding:20px;
     border-radius:10px;
@@ -74,7 +74,7 @@ main > .lyricbox1{
 
 main > .lyricbox2{
     margin:20px auto;
-    width:370px;
+    width:270px;
     background-color: rgb(164, 161, 161);
     padding:20px;
     border-radius:10px;
@@ -83,7 +83,7 @@ main > .lyricbox2{
 
 main > .lyricbox3{
     margin:20px auto;
-    width:370px;
+    width:270px;
     background-color: rgb(142, 142, 142);
     padding:20px;
     border-radius:10px;
@@ -106,7 +106,7 @@ audio::-webkit-media-controls-play-button{
 }
 
 main > .lyricbox1> .lyric1 > .vers{
-    margin: 30px 20px;
+    margin: 30px 10px;
 }
 
 main > .lyricbox1 > .lyric1 > .vers > p{
@@ -120,7 +120,7 @@ main > .lyricbox1 > .lyric1 > img{
 
 
 main > .lyricbox2> .lyric2 > .vers{
-    margin: 30px 20px;
+    margin: 30px 10px;
 }
 
 main > .lyricbox2 > .lyric2 > .vers > p{
@@ -134,7 +134,7 @@ main > .lyricbox2 > .lyric2 > img{
 
 /* dd */
 main > .lyricbox3> .lyric3 > .vers{
-    margin: 30px 20px;
+    margin: 30px 10px;
 }
 
 main > .lyricbox3 > .lyric3 > .vers > p{
@@ -164,14 +164,116 @@ main > .lyricbox3 > .lyric3 > img{
 }
 
 #slutt{
-    width:370px;
+    width:270px;
     border-radius: 10px;
     margin-bottom:20px;
 }
 
-@media(max-width:413px){
-    main{
-        margin-top:0px;
+@media(min-width:289px){
+
+    h2{
+        font-size:20px;
+    }
+    
+    main > .lyricbox1{
+        width:270px;
+    }
+    
+    main > .lyricbox2{
+        width:270px;
+    }
+    
+    main > .lyricbox3{
+        width:270px;
+    }
+    
+    #slutt{
+        width:270px;
+    }
+
+    h1{
+        font-family: 'Catamaran', sans-serif;
+        color:white;
+        text-align: center;
+        margin-top:25px;
+        font-size: 40px;
     }
 }
 
+@media(min-width:374px){
+#slutt{
+    width:340px;
+}
+
+main > .lyricbox1{
+    width:340px;
+}
+
+main > .lyricbox2{
+    width:340px;
+
+}
+
+main > .lyricbox3{
+    width:340px;
+}
+
+.intro{
+    margin:40px auto;
+    text-align: center;
+    width:80%;
+}
+
+.intro > p{
+    font-family: 'Catamaran', sans-serif;
+    color:white;
+    font-size: 20px;
+}
+
+#liten{
+    font-size: 17px;
+    margin-bottom:60px;
+}
+
+h1{
+    font-family: 'Catamaran', sans-serif;
+    color:white;
+    text-align: center;
+    margin-top:25px;
+    font-size: 60px;
+}
+
+}
+
+
+
+@media(min-width:413px){
+    main{
+        margin-top:40px;
+    }
+
+    .intro{
+        margin-top:80px;
+    }
+
+    #slutt{
+        width:370px;
+    }
+    
+    main > .lyricbox1{
+        width:370px;
+    }
+    
+    main > .lyricbox2{
+        width:370px;
+    
+    }
+
+    h2{
+        font-size:30px;
+    }
+    
+    main > .lyricbox3{
+        width:370px;
+    }
+}
