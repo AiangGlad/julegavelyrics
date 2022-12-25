@@ -20,17 +20,16 @@ body{
 
 
 #vid{
+    position:absolute;
+    z-index: -1;
     filter:brightness(0.2);
     width:100%;
-    
 }
 
 .intro{
-    position:absolute;
-    left:50%;
-    transform: translate(-50%);
-    bottom:520px;
+    margin:70px auto;
     text-align: center;
+    width:80%;
 }
 
 .intro > p{
@@ -58,6 +57,10 @@ h2{
 .overskrift1, .overskrift2, .overskrift3{
     text-align: center;
     cursor: pointer;
+}
+
+main{
+    margin-top:40px;
 }
 
 main > .lyricbox1{
@@ -166,54 +169,9 @@ main > .lyricbox3 > .lyric3 > img{
     margin-bottom:20px;
 }
 
-@media(min-width:395px){
-    .intro{
-        bottom:550px;
-    }
-
-    main > .lyricbox1{
-        width:390px;
-    }
-    
-    main > .lyricbox2{
-        width:390px;
-    }
-    
-    main > .lyricbox3{
-        width:390px;
-    }
-
-    #slutt{
-        width:390px;
+@media(max-width:414px){
+    main{
+        margin-top:0px;
     }
 }
 
-@media(max-width:380px){
-
-    #vid{
-        filter:brightness(0.2);
-        width:100%;
-        
-    }
-
-    .intro{
-        bottom:350px;
-    }
-
-    main > .lyricbox1{
-        width:360px;
-    }
-    
-    main > .lyricbox2{
-        width:360px;
-    }
-    
-    main > .lyricbox3{
-        width:360px;
-    }
-
-    #slutt{
-        width:360px;
-    }
-    
-}
