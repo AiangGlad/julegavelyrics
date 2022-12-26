@@ -284,4 +284,70 @@ h1{
     }
 }
 
+/*----------Nye greier-------- */
 
+
+
+
+@media(min-width:767px){
+    
+    #slutt{
+        width:570px;
+    }
+    
+    main > .lyricbox1{
+        width:570px;
+    }
+    
+    main > .lyricbox2{
+        width:570px;
+    
+    }
+
+    main > .lyricbox3{
+        width:570px;
+    }
+
+    h2{
+        font-size:35px;
+    }
+    
+    
+    .intro > p{
+        font-size: 30px;
+    }
+
+    #liten{
+        font-size: 23px;
+    }
+
+    h1{
+        font-family: 'Catamaran', sans-serif;
+        color:white;
+        text-align: center;
+        margin-top:150px;
+        font-size: 80px;
+    }
+
+
+}
+
+@media(min-width:1023px){
+    #slutt{
+        width:770px;
+    }
+    
+    main > .lyricbox1{
+        width:770px;
+    }
+    
+    main > .lyricbox2{
+        width:770px;
+    
+    }
+
+    main > .lyricbox3{
+        width:770px;
+    }
+
+}
